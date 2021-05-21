@@ -1,15 +1,21 @@
-# cState Example Site v5.0.2
+# cState Demo
 
-This is the default cState status page website directory/folder.
+Eine Beispielkonfiguration für cState für deutsche Nutzer, basierend auf der [offiziellen Demo](https://github.com/cstate/cstate) von cState.
 
-Main cState source code repository: https://github.com/cstate/cstate
+## Ausprobieren
 
-## Are you updating? Use these commands
+Dieses Repository clonen:
 
-Download yoru site with all the directories. `git clone --recursive <your repo link goes here>`
+```
+git clone https://github.com/jamct/cstate-demo
+```
 
-Update the cState theme submodule. `git submodule foreach git pull origin master`
+cState-Template als Git-Submodule laden:
 
-In the parent directory, type `hugo serve`. Check to see if everything is working.
+```
+git submodule update --init --recursive
+```
 
-Then do `git add -A; git commit -m "Update cState"; git push origin <branch, probably main or master>`. Your status page is now updated and uploaded.
+## Weitere Informationen
+
+Diese Demo wird beschrieben im Artikel ["Schöner scheitern"](https://www.heise.de/select/ct/2021/12/2020913324684997531) aus c’t 12/2021.
